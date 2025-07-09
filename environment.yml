@@ -1,0 +1,19 @@
+name: recipe-ner-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - joblib
+  - spacy
+  - ipython
+  - notebook
+  - jupyterlab
+  - pip
+  - pip:
+      - sklearn-crfsuite
